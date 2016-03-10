@@ -1,0 +1,29 @@
+/* Reset */
+html, body, #mainView {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll: none;
+} /* Custom behaviors */
+html * {
+  -webkit-user-select: none;
+  box-sizing: border-box;
+} /* mainView container */
+#mainView {
+  display: flex;
+  border-top: 1px solid #c7c7c7;
+} /* Right sidebar */
+#sidebar {
+  flex: 0 0 100px;
+  padding: 15px 0;
+  text-align: center;
+  background: #414A4C;
+  color: #f8f8f8;
+} /* Todo container */
+#todoListContainer {
+  flex: 1;
+  background: #F8F8FF;
+  overflow: auto;
+}
+/* Button styling */

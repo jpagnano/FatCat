@@ -1,0 +1,99 @@
+{
+  "name": "fc.nw",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "author": "jpagnano",
+  "license": "MIT",
+  "scripts": {
+    "start": "node_modules/.bin/nw ."
+  },
+  "node-main": "nodeMain.js",
+  "chromium-args": "",
+  "dom_storage_quota": 1024,
+  "window": {
+    "//": "screen settings",
+    "title": "FatCat",
+    "icon": "",
+    "toolbar": false,
+    "frame": true,
+    "position": "center",
+    "width": 1280,
+    "height": 800,
+    "min_width": 800,
+    "min_height": 500,
+    "resizable": true,
+    "always-on-top": false,
+    "fullscreen": true
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "engine": {
+    "node": "5.5.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "depot_tools": "0.0.4",
+    "gulp": "^3.9.1",
+    "nw-builder": "^2.2.0",
+    "nw-dev": "^1.3.1",
+    "webpack": "^1.12.13"
+  },
+  "dependencies": {
+    "jquery": "^2.1.3",
+    "jquery-mobile": "^1.4.1",
+    "jquery-ui": "^1.10.5",
+    "minimist": "^1.2.0",
+    "nwjs-bindings": "0.0.1",
+    "rc": "^1.1.6",
+    "yalla": "^0.2.2"
+  },
+  "platformOverrides": {
+    "win": {
+      "//": "screen settings",
+      "title": "FatCat",
+      "icon": "winIco",
+      "toolbar": false,
+      "frame": false,
+      "position": "center",
+      "width": 1280,
+      "height": 800,
+      "min_width": 800,
+      "min_height": 500,
+      "resizable": true,
+      "always-on-top": false,
+      "fullscreen": true
+    },
+    "win32": {
+      "//": "screen settings",
+      "title": "FatCat",
+      "icon": "winIco",
+      "toolbar": false,
+      "frame": false,
+      "position": "center",
+      "width": 1280,
+      "height": 800,
+      "min_width": 800,
+      "min_height": 500,
+      "resizable": true,
+      "always-on-top": false,
+      "fullscreen": true
+    },
+    "win64": {
+      "//": "screen settings",
+      "title": "FatCat",
+      "icon": "winIco",
+      "toolbar": false,
+      "frame": false,
+      "position": "center",
+      "width": 1280,
+      "height": 800,
+      "min_width": 800,
+      "min_height": 500,
+      "resizable": true,
+      "always-on-top": false,
+      "fullscreen": true 
+    }
+  }
+}

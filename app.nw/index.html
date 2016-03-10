@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fat Cat</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<script src="node_modules/nw-dev/lib/dev.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<div id="mainView">
+			<div class="row">
+				<div class="pong">
+					<h1>Pong</h1>
+					<!-- <p class="A">A</p> -->
+					<div class="queue">
+						<div class="minus">-</div>
+						<div class="out" id="pongOut">
+							000
+						</div>
+						<div class="plus">+</div>
+						<!-- <input class="box-in" type="number" value="" placeholder="000" id="pongIn" /> -->
+						<!-- <button class="btn-box" type="button" value="" placeholder="000" id="pongBtn">reset</button> -->
+					</div>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="row">
+				<div class="pool">
+					<h1>Pool</h1>
+					<!-- <p class="B">B</p> -->
+					<div class="queue">
+						<div class="minus">-</div>
+						<div class="out" id="poolOut">000</div>
+						<div class="plus">+</div>
+							<!-- <input class="box-in" type="number" value="" placeholder="000" id="poolIn" /> -->
+							<!-- <button class="btn-box" type="button" value="" placeholder="000" id="poolBtn">reset</button> -->
+					</div>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="row">
+				<div class="shuffle">
+					<h1>Shuffle</h1>
+					<!-- <p class="C">C</p> -->
+					<div class="queue">
+						<div class="minus">-</div>
+						<div class="out" id="shuffleOut">
+							000
+						</div>
+						<div class="plus">+</div>
+							<!-- <input class="box-in" type="number" value="" placeholder="000" id="shufflelIn" /> -->
+							<!-- <button class="btn-box" type="button" value="" placeholder="000" id="shuffleBtn">reset</button> -->
+					</div>
+				</div>
+			</div>
+
+			<div class="price-row">
+				<p class="price">
+					$7 per player | per hour
+				</p>
+			</div>
+</div>
+			<div class="clear"></div>
+
+		<!--
+			<div class="row">
+				<div id="red">Red</div>
+				<div id="out">0</div>
+				<div id="blue">Blue</div>
+			</div>
+			<div class="row">
+				<div id="n10">-10</div>
+				<div id="n20">-20</div>
+				<div id="n30">-30</div>
+			</div>
+			<div class="clear"></div>
+		</div> -->
+
+		<p id="target"></p>
+		<script src="js/deps/jQuery.js"></script>
+		<script src="./index.js"></script>
+		<script src="js/counter.js"></script>
+		<!-- <script src="js/fc.js"></script> -->
+	</body>
+</html>
