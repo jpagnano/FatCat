@@ -1,0 +1,11 @@
+
+{
+  "title": "FatCatQueue",
+  "icon": "dmg_icon.icns",
+  "background": "dmg_bg.png",
+  "icon-size": 80,
+  "contents": [
+    { "x": 448, "y": 344, "type": "link", "path": "/Applications" },
+    { "x": 192, "y": 344, "type": "file", "path": "../build/FatCatQueue/osx64/FatCatQueue.app" }
+  ]
+}
