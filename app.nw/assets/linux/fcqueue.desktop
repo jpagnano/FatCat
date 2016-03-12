@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=FatCatQueue
+Icon=starter
+Exec=/opt/starter/FatCatQueue
+Comment=FatCatQueue
+Categories=GNOME;GTK;Development;Documentation;
+Terminal=false

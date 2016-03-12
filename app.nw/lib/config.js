@@ -1,4 +1,3 @@
-
 var rc = require('rc')
 var packageJson = require('../package.json')
 var minimist = require('minimist')

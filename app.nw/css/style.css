@@ -39,7 +39,6 @@ body {
 }
 
 .row {
-    border: 1px solid #cccccc;
     float: left;
 		width: 100%;
 }
@@ -58,7 +57,6 @@ body {
 .row .plus,
 .row .minus
 {
-	border: 1px solid #cccccc;
 	margin:4em auto;
 	padding: 0.5em;
 	float: left;
@@ -68,7 +66,6 @@ body {
 .row div#poolOut,
 .row div#shuffleOut {
 	font-size: 1em;
-	border: 1px solid #cccccc;
 	margin: 0 auto;
 	float: left;
 	text-align: center;
@@ -107,7 +104,6 @@ body {
 }
 .price-row {
 			box-sizing: border-box;
-	    border: 1px solid #cccccc;
 			margin: 0 auto;
 	    float: left;
 			width: 100%;
